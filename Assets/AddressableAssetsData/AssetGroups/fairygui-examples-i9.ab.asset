@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: fairygui-examples-i9.ab
+  m_EditorClassIdentifier: 
+  m_GroupName: fairygui-examples-i9.ab
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2e589fedee954481f87e2628d2cf062f
+  m_SerializeEntries:
+  - m_GUID: 5f96b07c7caa7f84db1236359e8b0d43
+    m_Address: Assets/FairyGUI/Examples/Resources/Icons/i9.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e1cae88ca6f9d40f1abe58471a13eac1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c42c944cdfeca47ca8544e84f6d10acf, type: 2}
+    - {fileID: 11400000, guid: 43a924b5db50f44499355a8f46e50948, type: 2}
