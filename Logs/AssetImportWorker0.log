@@ -1,0 +1,486 @@
+Unity Editor version:    2021.3.14f1 (eee1884e7226)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.5 (Build 22G74)
+Darwin version:          22.6.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/test/CodeProject/UnityProject/MyProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49929
+Successfully changed project path to: /Users/test/CodeProject/UnityProject/MyProject
+/Users/test/CodeProject/UnityProject/MyProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 217.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/test/CodeProject/UnityProject/MyProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Forcing user selected device: Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.14f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001852 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 190.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.449 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2452ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (5ms)
+		EndReloadAssembly (1847ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (4ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1403ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (191ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (844ms)
+				ProcessInitializeOnLoadMethodAttributes (329ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011967 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/test/CodeProject/UnityProject/MyProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/test/CodeProject/UnityProject/MyProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 263.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.440 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5444ms)
+		BeginReloadAssembly (418ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (66ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (4596ms)
+			LoadAssemblies (209ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (421ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (149ms)
+			SetupLoadedEditorAssemblies (3388ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (264ms)
+				BeforeProcessingInitializeOnLoad (333ms)
+				ProcessInitializeOnLoadAttributes (2538ms)
+				ProcessInitializeOnLoadMethodAttributes (227ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'FairyGUI/TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'FairyGUI/TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.49 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4803 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (211.1 KB). Loaded Objects now: 5255.
+Memory consumption went from 125.6 MB to 125.3 MB.
+Total: 32.273459 ms (FindLiveObjects: 0.824292 ms CreateObjectMapping: 0.253541 ms MarkObjects: 28.610292 ms  DeleteObjects: 2.537625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007520 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/test/CodeProject/UnityProject/MyProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/test/CodeProject/UnityProject/MyProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.246 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6251ms)
+		BeginReloadAssembly (646ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (87ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (193ms)
+		EndReloadAssembly (5078ms)
+			LoadAssemblies (341ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (637ms)
+			ReleaseScriptCaches (71ms)
+			RebuildScriptCaches (130ms)
+			SetupLoadedEditorAssemblies (2738ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (88ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (337ms)
+				ProcessInitializeOnLoadAttributes (1852ms)
+				ProcessInitializeOnLoadMethodAttributes (449ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (579ms)
+Platform modules already initialized, skipping
+Shader 'FairyGUI/TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'FairyGUI/TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (190.6 KB). Loaded Objects now: 5258.
+Memory consumption went from 128.0 MB to 127.8 MB.
+Total: 20.135750 ms (FindLiveObjects: 0.599042 ms CreateObjectMapping: 0.308583 ms MarkObjects: 18.807084 ms  DeleteObjects: 0.418000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006242 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/test/CodeProject/UnityProject/MyProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/test/CodeProject/UnityProject/MyProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.944 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4949ms)
+		BeginReloadAssembly (625ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (110ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (3832ms)
+			LoadAssemblies (363ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (559ms)
+			ReleaseScriptCaches (36ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (2054ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (228ms)
+				ProcessInitializeOnLoadAttributes (1487ms)
+				ProcessInitializeOnLoadMethodAttributes (276ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (375ms)
+Platform modules already initialized, skipping
+Shader 'FairyGUI/TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'FairyGUI/TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (191.7 KB). Loaded Objects now: 5261.
+Memory consumption went from 131.9 MB to 131.7 MB.
+Total: 8.487792 ms (FindLiveObjects: 0.342417 ms CreateObjectMapping: 0.270000 ms MarkObjects: 7.516875 ms  DeleteObjects: 0.355833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1555.662807 seconds.
+  path: Assets/FairyGUI/Examples/Resources/UI/Bag_atlas0.png
+  artifactKey: Guid(346afb959685d48ed81690b2676beb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/UI/Bag_atlas0.png using Guid(346afb959685d48ed81690b2676beb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae5bddf19ce577c79f46725c34a78dc') in 1.363009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/FairyGUI/Examples/Resources/UI/Curve_atlas0.png
+  artifactKey: Guid(a67c842fc46754e2c84ffafa9aea4298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/UI/Curve_atlas0.png using Guid(a67c842fc46754e2c84ffafa9aea4298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f7d908199222bf7839362363ced522') in 0.018312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/FairyGUI/Examples/Resources/UI/TurnCard_atlas0.png
+  artifactKey: Guid(9600823ed9f92449a81baf81a4d993a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/UI/TurnCard_atlas0.png using Guid(9600823ed9f92449a81baf81a4d993a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6352b94669b4ffbf5df3c3234cce77') in 0.015439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/FairyGUI/Examples/Resources/UI/LoopList_atlas0.png
+  artifactKey: Guid(63e25316a3f544e0fad0be2802337063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/UI/LoopList_atlas0.png using Guid(63e25316a3f544e0fad0be2802337063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507dba771bf5431b363ccd4865398df5') in 0.011078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/FairyGUI/Examples/Resources/UI/Extension_atlas0.png
+  artifactKey: Guid(1d1b2b4b5ff4040f7aa0b81484ba93e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/UI/Extension_atlas0.png using Guid(1d1b2b4b5ff4040f7aa0b81484ba93e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0270afdbf88863f7161fa5c7629f19a2') in 0.009351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/FairyGUI/Examples/Resources/UI/Transition_atlas0.png
+  artifactKey: Guid(85940b8173dea45339e76145592a51bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/UI/Transition_atlas0.png using Guid(85940b8173dea45339e76145592a51bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd9b5762156aca2c59c3b9239e508f2') in 0.013516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/FairyGUI/Examples/Resources/UI/Joystick_atlas0.png
+  artifactKey: Guid(51af1ab91147945a092500a6ec852f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/UI/Joystick_atlas0.png using Guid(51af1ab91147945a092500a6ec852f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c574764133a1280beafe2577f29aad6') in 0.013386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/FairyGUI/Examples/Resources/UI/HeadBar_atlas0.png
+  artifactKey: Guid(60708b9439d254e198b0933795041029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/UI/HeadBar_atlas0.png using Guid(60708b9439d254e198b0933795041029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6053c6f48797ee1e684cd5058c9e9e') in 0.011621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/FairyGUI/Examples/Resources/UI/PullToRefresh_atlas0.png
+  artifactKey: Guid(8392c7363d118450d9193a7c73d574cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/UI/PullToRefresh_atlas0.png using Guid(8392c7363d118450d9193a7c73d574cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0db9467582c7517ad4aa1f5fdc00e05') in 0.011665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/FairyGUI/Examples/Resources/UI/Basics_o4lt7w.wav
+  artifactKey: Guid(87155986ecd4a494fb1bf8a30894be6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/UI/Basics_o4lt7w.wav using Guid(87155986ecd4a494fb1bf8a30894be6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91383b41ae358fa58bfc9fcf7347f69b') in 1.248512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/FairyGUI/Examples/Resources/UI/ModalWaiting_atlas0.png
+  artifactKey: Guid(ba8a3726c6403402cbd50dfd4615dbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/UI/ModalWaiting_atlas0.png using Guid(ba8a3726c6403402cbd50dfd4615dbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bf53d7f9514be218751124c332882a') in 0.016193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/FairyGUI/Examples/Resources/UI/EmitNumbers_atlas0.png
+  artifactKey: Guid(e2ec10b04b3e94470bf6123d315ff9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/UI/EmitNumbers_atlas0.png using Guid(e2ec10b04b3e94470bf6123d315ff9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbcd7ce4a682c91ce53d78c1ddc229b') in 0.009235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/FairyGUI/Examples/Resources/UI/Emoji_atlas0.png
+  artifactKey: Guid(b4f98defb276c48289959754e00cee34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/UI/Emoji_atlas0.png using Guid(b4f98defb276c48289959754e00cee34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab4a87dd79b417f97a25c4c1c726baf') in 0.010735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/FairyGUI/Examples/Resources/UI/TreeView_atlas0.png
+  artifactKey: Guid(074e3db5779c24509a2d68806deed31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/UI/TreeView_atlas0.png using Guid(074e3db5779c24509a2d68806deed31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749f36e93251605518960ae7a5e9421a') in 0.010042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/FairyGUI/Examples/Resources/UI/VirtualList_atlas0.png
+  artifactKey: Guid(e7f919ab9ee4d42dd971f965ec9aec59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/UI/VirtualList_atlas0.png using Guid(e7f919ab9ee4d42dd971f965ec9aec59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7fcd31c53296d52d4de86ca993c2a4') in 0.009297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/FairyGUI/Examples/Resources/UI/Particles_atlas0.png
+  artifactKey: Guid(9979fe01cca0048359536d32143f602b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/UI/Particles_atlas0.png using Guid(9979fe01cca0048359536d32143f602b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8effa52dcb0c9f40b4a79ce39d99b18a') in 0.009983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.560090 seconds.
+  path: Assets/FairyGUI/Examples/Resources/Cooldown/k0.png
+  artifactKey: Guid(6b193ab9468c3b74590657e2d92b0eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/Cooldown/k0.png using Guid(6b193ab9468c3b74590657e2d92b0eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a06b54a318231d259da7e00079fad0') in 0.009976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.809856 seconds.
+  path: Assets/FairyGUI/Examples/Resources/Curve/aomian.FBX
+  artifactKey: Guid(442eade8c078c3e4ca12a9990b30a6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/Curve/aomian.FBX using Guid(442eade8c078c3e4ca12a9990b30a6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a8d871c09e5787830d4d6dad1beba0') in 1.315687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.041892 seconds.
+  path: Assets/FairyGUI/Examples/Resources/Flame.prefab
+  artifactKey: Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/Flame.prefab using Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6568a63cd998a95c848edfd486e90f53') in 0.223519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/FairyGUI/Examples/Resources/New Terrain.asset
+  artifactKey: Guid(cf75e91f3e83f854e8c66716c1f39165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairyGUI/Examples/Resources/New Terrain.asset using Guid(cf75e91f3e83f854e8c66716c1f39165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c45631facd1a9ca949c4a32e18a2c2') in 0.235103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.551875 seconds.
+  path: Assets/UI
+  artifactKey: Guid(9c8455d559df345ed87c67d6331d121c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI using Guid(9c8455d559df345ed87c67d6331d121c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667a80725fd9d643971c4ad231d20344') in 0.005920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.676107 seconds.
+  path: Assets/UI/Model
+  artifactKey: Guid(271fff0a83bd94bc2873b3a1e547ec67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Model using Guid(271fff0a83bd94bc2873b3a1e547ec67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89dc00a5bb54f281af3a4e8711a1f0b6') in 0.004708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.792260 seconds.
+  path: Assets/UI/Model/Model_atlas0.png
+  artifactKey: Guid(7e4d263130463499faf40e95cdd2c64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Model/Model_atlas0.png using Guid(7e4d263130463499faf40e95cdd2c64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6e0fcd94aeb21009a05ae14df821a1') in 0.225468 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005118 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/test/CodeProject/UnityProject/MyProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/test/CodeProject/UnityProject/MyProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.925 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4932ms)
+		BeginReloadAssembly (840ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (139ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (211ms)
+		EndReloadAssembly (3664ms)
+			LoadAssemblies (475ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (466ms)
+			ReleaseScriptCaches (10ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (2025ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (247ms)
+				ProcessInitializeOnLoadAttributes (1429ms)
+				ProcessInitializeOnLoadMethodAttributes (285ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (477ms)
+Platform modules already initialized, skipping
+Shader 'FairyGUI/TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'FairyGUI/TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4745 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (0.7 MB). Loaded Objects now: 5288.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 7.099041 ms (FindLiveObjects: 0.353750 ms CreateObjectMapping: 0.244167 ms MarkObjects: 5.706084 ms  DeleteObjects: 0.792125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
